@@ -347,5 +347,3 @@ const getselectquery =
 
 
 
-
-
