@@ -1,0 +1,66 @@
+GET http://localhost:3000/books
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDEyMyIsImlhdCI6MTc0Mjk5Mjg5MH0.Vs2XG1-GVEjiT55F3Nmn2dpaihD7rdWDtgzezx4DmOY
+
+###
+GET http://localhost:3000/birth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDEyMyIsImlhdCI6MTc0Mjk5Mjg5MH0.Vs2XG1-GVEjiT55F3Nmn2dpaihD7rdWDtgzezx4DmOY
+
+###
+GET http://localhost:3000/user-review
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDEyMyIsImlhdCI6MTc0Mjk5Mjg5MH0.Vs2XG1-GVEjiT55F3Nmn2dpaihD7rdWDtgzezx4DmOY
+
+###
+GET http://localhost:3000/reviews
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDEyMyIsImlhdCI6MTc0Mjk5Mjg5MH0.Vs2XG1-GVEjiT55F3Nmn2dpaihD7rdWDtgzezx4DmOY
+
+###
+GET http://localhost:3000/books_sold_above_100
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDEyMyIsImlhdCI6MTc0Mjk5Mjg5MH0.Vs2XG1-GVEjiT55F3Nmn2dpaihD7rdWDtgzezx4DmOY
+
+###
+GET http://localhost:3000/reviews-rating-less-than-3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDEyMyIsImlhdCI6MTc0Mjk5Mjg5MH0.Vs2XG1-GVEjiT55F3Nmn2dpaihD7rdWDtgzezx4DmOY
+
+
+###
+GET http://localhost:3000/book-by-indian
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDEyMyIsImlhdCI6MTc0Mjk5Mjg5MH0.Vs2XG1-GVEjiT55F3Nmn2dpaihD7rdWDtgzezx4DmOY
+
+
+###
+GET http://localhost:3000/reviews-by-count
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDEyMyIsImlhdCI6MTc0Mjk5Mjg5MH0.Vs2XG1-GVEjiT55F3Nmn2dpaihD7rdWDtgzezx4DmOY
+
+###
+GET http://localhost:3000/reviews-last-6-months
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDEyMyIsImlhdCI6MTc0Mjk5Mjg5MH0.Vs2XG1-GVEjiT55F3Nmn2dpaihD7rdWDtgzezx4DmOY
+
+###
+GET http://localhost:3000/earliest-published
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDEyMyIsImlhdCI6MTc0Mjk5Mjg5MH0.Vs2XG1-GVEjiT55F3Nmn2dpaihD7rdWDtgzezx4DmOY
+
+###
+GET http://localhost:3000/book-review-2024
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDEyMyIsImlhdCI6MTc0Mjk5Mjg5MH0.Vs2XG1-GVEjiT55F3Nmn2dpaihD7rdWDtgzezx4DmOY
+
+###
+POST http://localhost:3000/register
+Content-Type:application/json
+
+{
+    "username":"ganesh123",
+    "name":"ganesh",
+    "location":"hyderabad",
+    "email":"somariganesh@gmail.com",
+    "password":"A1329101082"
+
+}
+
+###
+POST http://localhost:3000/login
+Content-Type :application/json
+
+{
+    "username":"ganesh123",
+    "password":"A1329101082"
+}
